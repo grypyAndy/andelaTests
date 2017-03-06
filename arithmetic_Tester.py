@@ -8,4 +8,5 @@ class TestSolution(unittest.TestCase):
         self.assertTrue(solution(35,15,"-"),20)
     def test_multiplication(self):
         self.assertTrue(solution(45,10,"*"),450)
-        
+    def test_division(self):
+    	self.assertTrue(solution(36,6,"/"),6)
