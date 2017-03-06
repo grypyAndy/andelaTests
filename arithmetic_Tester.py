@@ -10,3 +10,8 @@ class TestSolution(unittest.TestCase):
         self.assertTrue(solution(45,10,"*"),450)
     def test_division(self):
     	self.assertTrue(solution(36,6,"/"),6)
+    def test_remainder(self):
+    	self.assertTrue(solution(23,2,"%"),1)
+
+if __name__ == '__main__':
+	main()
