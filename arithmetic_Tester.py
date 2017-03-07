@@ -14,4 +14,4 @@ class TestSolution(unittest.TestCase):
     	self.assertTrue(solution(23,2,"%"),1)
 
 if __name__ == '__main__':
-	main()
+	unittest.main()
