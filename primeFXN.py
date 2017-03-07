@@ -1,11 +1,20 @@
 #function to list all the prime numbers from 0 to n
-n=50
+def primeNum_list(n):
+	
+	for i in range (2,n):
+		primes=True
+		for h in range (2,i):
+			if (i%h==0):
+				primes=False
+				break
+		if primes:
+			print(i)
 
-for i in range(0,n):
-	if i%2 == 1:
-		print (i)
-	elif i == 2:
-		print(i)
 
+
+
+
+
+primeNum_list(25)
 
 
